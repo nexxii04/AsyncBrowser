@@ -11,7 +11,6 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
 
-
 	public function onLoad(): void {
 		$bootstrap = dirname(__DIR__, 2) . '/vendor/autoload.php';
 		if (!is_file($bootstrap)) {
