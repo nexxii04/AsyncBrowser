@@ -9,7 +9,7 @@ use AsyncBrowser\Exception\AsyncBrowserException;
 
 use pocketmine\plugin\PluginBase;
 
-class Main extends PluginBase {
+class Main extends PluginBase { 
 
 	public function onLoad(): void {
 		$bootstrap = dirname(__DIR__, 2) . '/vendor/autoload.php';
