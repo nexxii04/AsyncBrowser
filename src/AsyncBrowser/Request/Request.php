@@ -65,11 +65,11 @@ final class Request extends EventEmitter {
 		return $this->body;
 	}
 
-	public function onResolve(callable $resolve) {
+	public function onResolve($resolve) {
 		$this->resolve = $resolve;
 	}
 
-	public function onReject(callable $reject) {
+	public function onReject($reject) {
 		$this->reject = $reject;
 	}
 
